@@ -6,7 +6,7 @@ To kick things off, you’ll get to pick a range by entering a lower and an uppe
 # Example: Guessing a number in a range from 1 to 100
 <p>Suppose the user defines the range from 1 to 100, and the system randomly selects 42 as the target number. The guessing process might look like this:
 
-Guess 1: 50 → Too high
+Guess 1: 50 → Too high,
 Guess 2: 25 → Too low
 Guess 3: 37 → Too low
 Guess 4: 43 → Too high
