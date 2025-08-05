@@ -3,20 +3,34 @@ Welcome to a fun beginner project designed just for those starting their journey
 <br>
 To kick things off, you’ll get to pick a range by entering a lower and an upper bound (for example, from A to B). Once you've set your range, our game will randomly select an integer from that interval. Your challenge? To guess the secret number using as few attempts as possible! After each guess, you’ll receive helpful feedback so you can adjust your next guess based on whether you were too high or too low. (Have fun and good luck!).
 <br>
-# Example: Guessing a number in a range from 1 to 100
-<p>Suppose the user defines the range from 1 to 100, and the system randomly selects 42 as the target number. The guessing process might look like this:
+# Example 1: Guessing in a range from 1 to 100
+<pre>
+Suppose the user defines the range from 1 to 100, and the system randomly selects 42 as the target number. The guessing process might look like this:
 
-Guess 1: 50 → Too high<br>
-Guess 2: 25 → Too low<br>
-Guess 3: 37 → Too low<br>
-Guess 4: 43 → Too high<br>
-Guess 5: 40 → Too low<br>
-Guess 6: 41 → Too low<br>
-Guess 7: 42 → Correct!<br>
+Guess 1: 50 → Too high
+Guess 2: 25 → Too low
+Guess 3: 37 → Too low
+Guess 4: 43 → Too high
+Guess 5: 40 → Too low
+Guess 6: 41 → Too low
+Guess 7: 42 → Correct!
 
 Total Guesses: 7
-</p>
+</pre>
 
+# Example 2: Guessing in a range from 1 to 50
+<pre>
+Now consider a smaller range, from 1 to 50, with the same target number 42. Here's how the guesses might proceed:
+
+Guess 1: 25 → Too low
+Guess 2: 37 → Too low
+Guess 3: 43 → Too high
+Guess 4: 40 → Too low
+Guess 5: 41 → Too low
+Guess 6: 42 → Correct!
+
+Total Guesses: 6
+</pre>
 # Algorithm
 <pre>
 Accept lower and upper bounds from the user.
