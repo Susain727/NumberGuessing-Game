@@ -7,12 +7,12 @@ To kick things off, you’ll get to pick a range by entering a lower and an uppe
 <p>Suppose the user defines the range from 1 to 100, and the system randomly selects 42 as the target number. The guessing process might look like this:
 
 Guess 1: 50 → Too high<br>
-Guess 2: 25 → Too low
-Guess 3: 37 → Too low
-Guess 4: 43 → Too high
-Guess 5: 40 → Too low
-Guess 6: 41 → Too low
-Guess 7: 42 → Correct!
+Guess 2: 25 → Too low<br>
+Guess 3: 37 → Too low<br>
+Guess 4: 43 → Too high<br>
+Guess 5: 40 → Too low<br>
+Guess 6: 41 → Too low<br>
+Guess 7: 42 → Correct!<br>
 
 Total Guesses: 7
 </p>
