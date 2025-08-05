@@ -16,3 +16,15 @@ Guess 7: 42 → Correct!<br>
 
 Total Guesses: 7
 </p>
+
+# Algorithm
+<p>
+Accept lower and upper bounds from the user.<br>
+Generate a random number in the selected range.<br>
+Calculate the maximum allowed guesses using the binary search formula.<br>
+Run a loop to take user guesses:<br>
+<t>If the guess is too high, print: "Try Again! You guessed too high."<br>
+<t>If the guess is too low, print: "Try Again! You guessed too small."<br>
+<t>If the guess is correct, print: "Congratulations!" and exit the loop.<br>
+<t>If the user runs out of chances, display the correct number and a message: "Better Luck Next Time!"
+</p>
